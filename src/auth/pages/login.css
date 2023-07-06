@@ -1,0 +1,30 @@
+.container-box {
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 50;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.font-title {
+    font-family: 'Chewy';
+  }
+
+.text-header {
+    font-family: 'Chewy';
+    font-size: 30px;
+    color: '#545454';  
+}
+
+.text-button {
+    font-family: 'Chewy';
+    color: '#FFFFFF';
+    font-size: 20px;
+      
+}
