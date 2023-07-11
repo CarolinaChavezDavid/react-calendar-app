@@ -1,10 +1,12 @@
 import React from 'react'
 import { AuthLayout } from '../layouts/AuthLayout'
-import {  Button, Card, Grid, TextField, Typography, styled } from '@mui/material'
+import {  Button, Link, Grid, TextField, Typography, styled } from '@mui/material'
 import './login.css'
 import { useForm } from 'react-hook-form'
 import { useDispatch, useSelector } from 'react-redux'
 import { createUserFirebase, loginUserFirebase } from '../store/AuthThunks'
+import { Link as RouterLink} from 'react-router-dom'
+
 
 
 export const LoginPage = () => {
@@ -68,7 +70,10 @@ export const LoginPage = () => {
                             style={{
                               borderRadius: 20
                             }} >
-                            <div className='text-button'>Login</div>
+                            <Link className='text-button' component={ RouterLink }  to='/calendar'>
+                                Login
+                            </Link>
+
                           </Button>
                         </Grid>
 

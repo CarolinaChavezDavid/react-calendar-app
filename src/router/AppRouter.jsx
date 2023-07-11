@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { LoginPage } from "../auth/pages/LoginPage";
+import { CalendarPage } from "../calendar/pages/CalendarPage";
 
 
 export const AppRouter = () => {
@@ -11,7 +12,7 @@ export const AppRouter = () => {
             },
             {
                 path: "/calendar",
-                element: <LoginPage />, 
+                element: <CalendarPage />, 
             },
         ])
     )
